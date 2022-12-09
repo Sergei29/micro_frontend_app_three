@@ -1,3 +1,17 @@
+## ABOUT
+
+This app is part of the demo for Next.js applications as micro-frontends
+
+### Micro-frontends architecture basic example
+
+- package used: [@module-federation/nextjs-mf](https://www.npmjs.com/package/@module-federation/nextjs-mf)
+
+### Microfrontend applications:
+
+- [`frontend_one`](https://github.com/Sergei29/micro_frontend_app_one): exposes `Header` component,
+- [`frontend_two`](https://github.com/Sergei29/micro_frontend_app_two): exposes `Footer` component,
+- [`frontend_three`](https://github.com/Sergei29/micro_frontend_app_three): ( current repo ) consumes `Header` and `Footer` components.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
